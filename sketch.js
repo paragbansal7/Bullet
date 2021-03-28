@@ -29,11 +29,11 @@ function draw() {
     damage=(0.5*weight*speed*speed)/(t*t*t);
 
     if(damage>10) {
-      bullet.shapeColor="green";
+      wall.shapeColor="green";
     }
 
     if(damage<10){
-      bullet.shapeColor="red";
+      wall.shapeColor="red";
     }
 
   }
